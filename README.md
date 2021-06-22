@@ -1,15 +1,17 @@
 # Princess-and-the-Roses-4-pile
 This contains the Sprague-Grundy values (nimbers) for the 4-pile variant of the combinatorial game Princess and the Roses. 
+
   The first step to finding these values was to reduce the 4-pile game to a 3-pile game. If A≥B≥C≥D≥0 are the sizes of the four piles, 
   then the game (D, B-C+D, A-C+D) with the following 7 moves has the same nimber as the original Princess and the Roses game:
-  (-1, -1, -1)
-  (-1, 0, 0)
-  (-1, -2, -1)
-  (-1, -1, -2)
-  (0, -1, 0)
-  (0, -1, -1)
-  (0, 0, -1)
+  (-1, -1, -1),
+  (-1, 0, 0),
+  (-1, -2, -1),
+  (-1, -1, -2),
+  (0, -1, 0),
+  (0, -1, -1),
+  (0, 0, -1).
   These numbers are denoted as (x, y, z), with 0≤x≤y≤z.
+  
 The file positions_50.txt contains every position in this game up to and including (50, 50, 50), along with their nimbers. 
   They are ordered by increasing value of z, then y, then x.
   
