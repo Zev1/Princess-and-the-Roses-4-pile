@@ -12,7 +12,7 @@ This contains the Sprague-Grundy values (nimbers) for the 4-pile variant of the 
   (0, 0, -1).
   These numbers are denoted as (x, y, z), with 0≤x≤y≤z.
   
-The file positions_50.txt contains every position in this game up to and including (50, 50, 50), along with their nimbers. 
+The file positions_50.txt contains every position in this game up to and including (50, 50, 50), along with their Sprague-Grundy values. 
   They are ordered by increasing value of z, then y, then x.
   
 The file positions_sorted_fancy.html contains the nimbers of every position in this game up to and including (50, 50, 50). The nimbers are sorted into pages 
