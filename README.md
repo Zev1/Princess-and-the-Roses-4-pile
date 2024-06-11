@@ -19,8 +19,9 @@ The file positions_sorted_fancy.html contains the nimbers of every position in t
   based on their x value. Each page contains a grid of y and z values, with each entry in the grid corresponding to the nimber of the position with the given 
   (x, y, z). Each page is split into 4 sections with different behaviour of the nimbers. 
   
-    The upper section is white and green, and denotes positions where z<x+y and y≤2x+1. The green shows where exceptions may occurr, as this is the only region with many exceptions to its rules.
-    The right section is red, and denotes positions where z<x+y and y>2x+1.
-    The left section is red, and denotes positions where z≥x+y and y≤2x.
-    The lower section is white, and denotes positions where z≥x+y and y>2x.
-    Since this is an HTML file, it must be downloaded in order to be viewed without the source code. The file positions_sorted.txt contains the same content but without the colouring.
+  The upper section is white and green, and denotes positions where z<x+y and y≤2x+1. The green shows where exceptions may occurr, as this is the only region with many exceptions to its rules.
+  The right section is red, and denotes positions where z<x+y and y>2x+1.
+  The left section is red, and denotes positions where z≥x+y and y≤2x.
+  The lower section is white, and denotes positions where z≥x+y and y>2x.
+  
+  Since this is an HTML file, it must be downloaded in order to be viewed without the source code. The file positions_sorted.txt contains the same content but without the colouring.
